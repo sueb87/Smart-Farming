@@ -180,32 +180,14 @@ public class FragmentSaklar extends Fragment {
             Saklar saklar1 = realm.createObject(Saklar.class);
 
             saklar1.setId("lampu_kanan");
-            saklar1.setName("Lampu Teras");
+            saklar1.setName("Saklar Utama");
             saklar1.setValue(1);
 
             Saklar saklar2 = realm.createObject(Saklar.class);
 
             saklar2.setId("lampu_kiri");
-            saklar2.setName("Lampu Dapur");
+            saklar2.setName("Saklar Siram");
             saklar2.setValue(0);
-
-            Saklar saklar3 = realm.createObject(Saklar.class);
-
-            saklar3.setId("lampu_tengah");
-            saklar3.setName("Lampu Kamar");
-            saklar3.setValue(1);
-
-            Saklar saklar4 = realm.createObject(Saklar.class);
-
-            saklar4.setId("lampu_halaman");
-            saklar4.setName("Lampu Taman");
-            saklar4.setValue(1);
-
-            Saklar saklar5 = realm.createObject(Saklar.class);
-
-            saklar5.setId("lampu_jalan");
-            saklar5.setName("Lampu Jalan");
-            saklar5.setValue(1);
 
             realm.commitTransaction();
 

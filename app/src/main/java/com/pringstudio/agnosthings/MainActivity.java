@@ -118,9 +118,9 @@ public class MainActivity extends AppCompatActivity {
         // Recycerlview
         FragmentMenu recycler = new FragmentMenu(
                 new FragmentSaklar(),
-                "Saklar Lampu",
+                "Saklar Air",
                 R.drawable.ic_cached_grey,
-                "Semua Saklar Lampu"
+                "Semua Saklar Air"
         );
 
         navMenuList.add(recycler);

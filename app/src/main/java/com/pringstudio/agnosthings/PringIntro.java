@@ -25,7 +25,7 @@ public class PringIntro extends AppIntro2 {
 
         addSlide(AppIntroFragment.newInstance(
                 "Monitor Suhu",
-                "Monitoring data suhu ruangan rumah anda",
+                "Monitoring data suhu perkebunan anda",
                 R.drawable.splash_suhu,
                 Color.parseColor("#7e57c2"))
         );
@@ -39,16 +39,9 @@ public class PringIntro extends AppIntro2 {
 
         addSlide(AppIntroFragment.newInstance(
                 "Saklar Jarak jauh",
-                "Kini anda tidak takut lupa mematikan lampu, karena dapat anda kontrol dari SmartPhone anda",
+                "Kini anda tidak takut lupa mematikan air, karena dapat anda kontrol dari SmartPhone anda",
                 R.drawable.splash_lampu,
                 Color.parseColor("#ff5722"))
-        );
-
-        addSlide(AppIntroFragment.newInstance(
-                "Monitor Konsumsi Listrik",
-                "Memonitor pemakaian pulsa listrik anda",
-                R.drawable.splash_listrik,
-                Color.parseColor("#03a9f4"))
         );
 /*
         addSlide(AppIntroFragment.newInstance(
